@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="368.0" prefWidth="231.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Label layoutX="74.0" layoutY="14.0" text="Calcula Soma" textFill="#05d2ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="text01" layoutX="14.0" layoutY="66.0" promptText="Primeiro Valor" />
+      <TextField fx:id="text02" layoutX="14.0" layoutY="110.0" promptText="Segundo Valor" />
+      <Button fx:id="somar" layoutX="14.0" layoutY="149.0" mnemonicParsing="false" onAction="#onBtSomaAction" prefHeight="30.0" prefWidth="175.0" text="Soma" />
+      <Label layoutX="11.0" layoutY="311.0" prefHeight="20.0" prefWidth="126.0" text="Resultado  " />
+      <Label fx:id="resultado" layoutX="88.0" layoutY="311.0" prefHeight="20.0" prefWidth="99.0" />
+      <Button fx:id="multiplicar" layoutX="14.0" layoutY="218.0" mnemonicParsing="false" onAction="#onBtMultiplicacaoAction" prefHeight="30.0" prefWidth="175.0" text="Multiplicação" />
+      <Button fx:id="subtrair" layoutX="14.0" layoutY="184.0" mnemonicParsing="false" onAction="#onBtSubtrairAction" prefHeight="30.0" prefWidth="175.0" text="Subtração" />
+      <Button fx:id="dividir" layoutX="14.0" layoutY="254.0" mnemonicParsing="false" onAction="#onBtDivisaoAction" prefHeight="30.0" prefWidth="175.0" text="Divisão" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="S_RESIZE" />
+   </cursor>
+   <opaqueInsets>
+      <Insets left="20.0" />
+   </opaqueInsets>
+</AnchorPane>
