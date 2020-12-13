@@ -61,7 +61,7 @@ public class ViewController {
 			Clean();
 
 		} catch (NumberFormatException e) {
-			Avisos.Alerta("Aviso", "Erro de sintaxe", "Apenas numeros são válidos", Alert.AlertType.ERROR);
+			Avisos.Alerta("Aviso", "Erro de sintaxe", "Apenas numeros são válidos na calculadora", Alert.AlertType.ERROR);
 		}
 	}
 
