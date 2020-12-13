@@ -117,8 +117,6 @@ public class ViewController {
 		Regras.setTextFieldMaxLength(text01, 12);
 		Regras.setTextFieldMaxLength(text02, 12);
 
-		// Constraints.setTextFieldInteger(txtNumero1);
-		// Constraints.setTextFieldInteger(txtNumero2);
 
 	}
 	
